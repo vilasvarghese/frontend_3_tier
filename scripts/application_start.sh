@@ -18,10 +18,10 @@ sudo apt-get update
 sudo apt-get install -y unzip awscli
 
 # Download and extract files from S3
-sudo aws s3 cp s3://hypha-build-and-push-bucket/app.js /var/www/html/
-sudo aws s3 cp s3://hypha-build-and-push-bucket/package.json /var/www/html/
-sudo aws s3 cp s3://hypha-build-and-push-bucket/package-lock.json /var/www/html/
-sudo aws s3 cp --recursive s3://hypha-build-and-push-bucket/node_modules /var/www/html/node_modules
+sudo aws s3 cp s3://hypha-saniakurup-bucket/app.js /var/www/html/
+sudo aws s3 cp s3://hypha-saniakurup-bucket/package.json /var/www/html/
+sudo aws s3 cp s3://hypha-saniakurup-bucket/package-lock.json /var/www/html/
+sudo aws s3 cp --recursive s3://hypha-saniakurup-bucket/node_modules /var/www/html/node_modules
 
 # Navigate to the frontend directory (where package.json is located)
 cd /var/www/html
