@@ -4,8 +4,9 @@
 name: frontend_CICD
 
 on:
-  push:
-    branches: [ "main" ]
+  workflow_dispatch:
+#  push:
+#    branches: [ "main" ]
 
 jobs:
   build:
